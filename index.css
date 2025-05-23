@@ -5,7 +5,7 @@ header {
     transition: background-color 0.5s, backdrop-filter 0.5s;
     z-index: 1000;
     color: skyblue;
-    padding: 0.3vh 0; 
+    padding: 0.50rem; 
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -194,6 +194,31 @@ body {
     transform: translateY(-2vh);
 }
 
+.carrusel{
+    max-width: 100%;
+  overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel img {
+
+  height: 100vh;
+  
+ 
+}
+
+/* Flecha izquierda (blanca) */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234686A3' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 0-.708 0L4.793 7.5l5.853 5.854a.5.5 0 0 0 .708-.708L6.207 7.5l5.147-5.146a.5.5 0 0 0 0-.708z'/%3E%3C/svg%3E");
+}
+
+/* Flecha derecha en color #4686A3 */
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234686A3' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 1 .708 0L11.207 7.5l-5.853 5.854a.5.5 0 0 1-.708-.708L9.793 7.5 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
 .tax-regime-section {
     display: flex;
     flex-direction: column;
@@ -264,3 +289,5 @@ footer .container {
 footer p {
     margin: 0;
 }
+
+
